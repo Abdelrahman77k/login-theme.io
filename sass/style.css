@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background: #181818;
+  color: #fff;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+
+#wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#wrapper #left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#wrapper #left #signin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  padding-bottom: 1rem;
+}
+
+#wrapper #left #signin #input-form {
+  width: 80%;
+  padding-bottom: 3rem;
+}
+
+#wrapper #left #signin #input-form label {
+  font-size: 0.9rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+#wrapper #left #signin #input-form .input-text {
+  margin-bottom: 1.3rem;
+  width: 100%;
+  border-radius: 2px;
+  background: #181818;
+  border: 1px solid #555;
+  color: #ccc;
+  padding: 0.5rem 1rem;
+  line-height: 1.3rem;
+}
+
+#wrapper #left #signin #input-form .primary-btn {
+  padding: 0.7rem 1rem;
+  height: 2.7rem;
+  display: block;
+  border: 0;
+  border-radius: 2px;
+  font-weight: 500;
+  background: #f96816;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+}
+
+#wrapper #left #signin #input-form .primary-btn:hover {
+  background: #ff7b39;
+}
+
+#wrapper #left #signin .btn,
+#wrapper #left #signin .or,
+#wrapper #left #signin .links {
+  width: 60%;
+}
+
+#wrapper #left #signin .btn a,
+#wrapper #left #signin .or a,
+#wrapper #left #signin .links a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  display: block;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+#wrapper #left #signin .or {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 1.2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#wrapper #left #signin .or .bar {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  border: 0;
+  height: 1px;
+  background: #aaa;
+}
+
+#wrapper #left #signin .or span {
+  color: #ccc;
+  padding: 0 0.8rem;
+}
+
+#wrapper #left #signin .btn {
+  padding: 0.7rem 1rem;
+  height: 2.7rem;
+  display: block;
+  border: 1px solid #f4f4f4;
+  border-radius: 2px;
+  font-weight: 500;
+  background: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#wrapper #left #signin .btn:hover {
+  border-color: #ff7b39;
+  color: #ff7b39;
+}
+
+#wrapper #left #signin .logo {
+  margin-bottom: 8vh;
+}
+
+#wrapper #left #signin .logo img {
+  width: 300px;
+}
+
+#wrapper #left #main-footer {
+  color: #ccc;
+  text-align: center;
+  font-size: 0.8rem;
+  max-width: 80%;
+  padding-top: 3rem;
+}
+
+#wrapper #left #main-footer a {
+  color: #f96816;
+  text-decoration: underline;
+}
+
+#wrapper #right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#wrapper #right .showcase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("https://image.ibb.co/cO9Lxq/login-bg.jpg") no-repeat center center/cover;
+  height: 100vh;
+  text-align: center;
+}
+
+#wrapper #right .showcase-text {
+  color: #fff;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+}
+
+#wrapper #right .try {
+  padding: 0.7rem 1rem;
+  height: 2.7rem;
+  display: block;
+  border: 1px solid #f4f4f4;
+  border-radius: 2px;
+  font-weight: 500;
+  background: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#wrapper #right .try:hover {
+  border-color: #ff7b39;
+  color: #ff7b39;
+}
+
+/* Media Queries*/
+@media (min-width: 1200px) {
+  #left {
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4;
+  }
+  #right {
+    -webkit-box-flex: 6;
+        -ms-flex: 6;
+            flex: 6;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow: auto;
+  }
+  #right {
+    display: none;
+  }
+  #left {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    margin-top: 2vh;
+  }
+  .logo {
+    margin-bottom: 2vh;
+  }
+  #main-footer {
+    padding-top: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
